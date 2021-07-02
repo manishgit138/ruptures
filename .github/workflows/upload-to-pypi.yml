@@ -59,16 +59,16 @@ jobs:
           - os: macos-latest
             bitness: 64
             platform_id: macosx_x86_64
+            arch: auto
           - os: ubuntu-latest
             bitness: 64
             platform_id: manylinux2014_aarch64
+            arch: auto
         exclude:
           - os: macos-latest
             bitness: 32
-            arch: auto
           - os: windows-latest
             python: 39
-            arch: auto
     steps:
       - uses: actions/checkout@v1
 
