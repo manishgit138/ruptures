@@ -63,7 +63,7 @@ jobs:
           - os: ubuntu-latest
             bitness: 64
             platform_id: manylinux2014_aarch64
-            arch: auto
+            arch: aarch64
         exclude:
           - os: macos-latest
             bitness: 32
